@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.usuario = 'Marcos';
+    this.usuario = 'Marcos Gallardo Pérez';
   }
 
 }

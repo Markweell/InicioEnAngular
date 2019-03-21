@@ -1,0 +1,12 @@
+<p>Estoy aprendiendo {{ interpolacion }}</p>
+<div id='homeContainer'>
+  <a [href]="url">Mi github</a>
+  <div id='homeButtons'>
+    <button [disabled]="activo" (click)="intercambiar()">
+      {{ mensajeButton1 }}
+    </button>
+    <button [disabled]="!activo" (click)="intercambiar()">
+      {{ mensajeButton2 }}
+    </button>
+  </div>
+</div>
